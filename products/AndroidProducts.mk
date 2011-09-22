@@ -31,12 +31,10 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_mecha.mk \
     $(LOCAL_DIR)/cyanogen_mesmerizemtd.mk \
     $(LOCAL_DIR)/cyanogen_morrison.mk \
-    $(LOCAL_DIR)/cyanogen_motus.mk \
     $(LOCAL_DIR)/cyanogen_one.mk \
     $(LOCAL_DIR)/cyanogen_p990.mk \
     $(LOCAL_DIR)/cyanogen_p999.mk \
     $(LOCAL_DIR)/cyanogen_passion.mk \
-    $(LOCAL_DIR)/cyanogen_saga.mk \
     $(LOCAL_DIR)/cyanogen_shadow.mk \
     $(LOCAL_DIR)/cyanogen_sholes.mk \
     $(LOCAL_DIR)/cyanogen_showcasemtd.mk \
@@ -46,7 +44,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_smb_b9701.mk \
     $(LOCAL_DIR)/cyanogen_speedy.mk \
     $(LOCAL_DIR)/cyanogen_supersonic.mk \
-    $(LOCAL_DIR)/cyanogen_v9.mk \
     $(LOCAL_DIR)/cyanogen_u8220.mk \
     $(LOCAL_DIR)/cyanogen_vega.mk \
     $(LOCAL_DIR)/cyanogen_vibrantmtd.mk \
