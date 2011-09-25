@@ -280,6 +280,8 @@
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
         />
+    
+    
 
     <!-- emergency call button shown when sim is PUKd and tab_selector is
          hidden -->
@@ -294,5 +296,14 @@
         android:visibility="gone"
         />
 
+    <com.android.internal.widget.RingSelector
+        android:id="@+id/ring_selector"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+            
 </LinearLayout>
 </android.gesture.GestureOverlayView>
