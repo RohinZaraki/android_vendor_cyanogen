@@ -83,8 +83,10 @@ libstagefright_color_conversion.so	0xa3500000
 libstagefright_omx.so	0xa3400000
 libstagefrighthw.so	0xa3300000
 libstagefright.so	0xa2f00000
+libreference-cdma-sms.so 0xa2a00000
 libdrm1.so	0x9ea00000
 libdrm1_jni.so	0x9e900000
+libembunit.so   0x9e300000libembunit.so   0x9e300000
 libctest.so	0x9dd00000
 librpc.so	0x9db00000
 libsrec_jni.so	0x9d800000
