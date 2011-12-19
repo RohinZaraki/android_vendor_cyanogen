@@ -39,7 +39,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_mesmerizemtd.mk \
     $(LOCAL_DIR)/cyanogen_mimmi.mk \
     $(LOCAL_DIR)/cyanogen_morrison.mk \
-    $(LOCAL_DIR)/cyanogen_motus.mk \
     $(LOCAL_DIR)/cyanogen_one.mk \
     $(LOCAL_DIR)/cyanogen_olympus.mk \
     $(LOCAL_DIR)/cyanogen_p970.mk \
