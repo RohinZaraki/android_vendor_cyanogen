@@ -21,7 +21,7 @@ PRODUCT_MODEL := Hero
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=GRH78 BUILD_FINGERPRINT=google/soju/crespo:2.3.1/GRH78/85442:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.1 GRH78 85442 release-keys"
 
-PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-linux-arm-hero.map
+PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-linux-arm-gingerdx.map
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := Hero
@@ -33,3 +33,6 @@ PRODUCT_VERSION_DEVICE_SPECIFIC :=
 #
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/gingerdx
+

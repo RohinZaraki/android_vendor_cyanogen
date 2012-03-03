@@ -49,3 +49,7 @@ PRODUCT_VERSION_DEVICE_SPECIFIC :=
 #
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    
+# gingerdx for SGS
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/gingerdx
+
